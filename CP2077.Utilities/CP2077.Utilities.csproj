@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HouseofCat.Compression" Version="1.0.4" />
+    <PackageReference Include="HouseofCat.Compression.LZ4" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CP2077.Models\CP2077.Models.csproj" />
+  </ItemGroup>
+
+</Project>
